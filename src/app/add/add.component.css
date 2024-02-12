@@ -1,0 +1,29 @@
+/* add.component.css */
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #1565C0;
+}
