@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { AddComponent } from './add/add.component';
 import { FormsModule} from "@angular/forms";
 import { ClientComponent } from './client/client.component';
+import { DeleteComponent } from './delete/delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddComponent,
-    ClientComponent
+    ClientComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
